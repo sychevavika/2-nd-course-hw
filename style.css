@@ -62,7 +62,7 @@ a {
     padding-top: 13px;
     padding-bottom: 13px;
 }
-.group{
+.footer{
     background-image: url(back2.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -71,7 +71,7 @@ a {
     display: flex;
     gap: 32px;
 }
-.group_content{
+.footer_game{
     margin-top: 128px;
     margin-bottom: 128px;
 }
