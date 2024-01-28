@@ -22,7 +22,7 @@ a {
     background-size: cover;
     height: 1024px;
 }
-.header_title{
+.header__title{
     padding-top: 217px;
     color: #FFF;
     font-size: 64px;
@@ -36,7 +36,7 @@ a {
     justify-content: center;
     flex-shrink: 0;
 }
-.header_content{
+.header__content{
     color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -45,7 +45,7 @@ a {
     padding-top: 32px;
     width: 481px;
 }
-.header_button{
+.header__button{
     border-radius: 30px;
     background: #9C0332;
     box-sizing: border-box;
@@ -71,7 +71,7 @@ a {
     display: flex;
     gap: 32px;
 }
-.footer_game{
+.footer__game{
     margin-top: 128px;
     margin-bottom: 128px;
 }
