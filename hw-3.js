@@ -1,7 +1,7 @@
 //Задание 1
 let password = 'пароль';
 let answer = prompt('Введите пароль');
-if (answer === 'пароль') {
+if (answer === password) {
   alert('Пароль введен верно');  
 } else {
   alert('Пароль введен неправильно');
