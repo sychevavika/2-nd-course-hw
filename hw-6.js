@@ -67,7 +67,7 @@ for (let c = 0; c < massiveten.length - 1; c++){
 //Задание 11
 const massiveel = [1,2,3,4,5,6];
 function numtwo(massiveel) {
-    return massiveel.map(x => x * 2);
+    return massiveel.map(x => x * x);
 }
 console.log(numtwo(massiveel));
 
