@@ -1,4 +1,4 @@
-//game1
+//gameseasons1
 
 function gameseasons() {
     let monthN = Number(prompt('Введите номер месяца, чтобы узнать время года.'));
@@ -19,5 +19,25 @@ function gameseasons() {
         return(console.log(`Введите НОМЕР месяца.`));
     }
 } 
+
+//gamewords2
+function gamewords(){
+    let list = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    list = list.sort(() => Math.random() - 0.5);
+    alert (list);
+    let answer1 = prompt('Чему равнялся первый элемент массива?');
+    let answer2 = prompt('Чему равнялся последний элемент массива?');
+    if (answer1 === list[0] && answer2 === list[list.length-1]) {
+        alert('Угадал');
+    } 
+    else if (answer1 === list[0] || answer2 === list[list.length-1]){
+        alert('Вы были близки к победе!');
+    }
+    else {
+        alert('Проигрыш')
+    }
+    
+}
+
 
 
